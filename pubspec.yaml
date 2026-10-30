@@ -1,0 +1,15 @@
+name: cashview
+description: CashView - Earn money watching ads
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  google_mobile_ads: ^4.0.0
+  firebase_core: ^2.24.0
+  firebase_auth: ^4.12.0
+  cloud_firestore: ^4.15.0
+flutter:
+  uses-material-design: true
